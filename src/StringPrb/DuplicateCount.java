@@ -14,7 +14,7 @@ public class DuplicateCount {
 
 
 public static void duplicateChar() {
-	String s = "java";
+	String s = "prashanth";
 	Map<Character,Integer> m=new HashMap<Character,Integer>();
 	for(int i=0;i<s.length();i++) {
 		if(m.containsKey(s.charAt(i))) {
